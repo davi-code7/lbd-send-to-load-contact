@@ -8,7 +8,7 @@ module.exports.sendToLoadContact = async (event) => {
 
   console.log("message:", message);
 
-  const response = await fetch("http://34.207.221.248:5000", {
+  const response = await fetch("http://34.207.221.248:5000/contact", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
