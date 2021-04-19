@@ -1,4 +1,3 @@
-require("dotenv");
 const fetch = require("node-fetch");
 
 ("use strict");
